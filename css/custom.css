@@ -35,6 +35,11 @@ Experiment with colors, typography, spacing, and component styles.
   --white: #fff;
   
   /* You can add more custom colors here */
+--primary-colour: #464612;
+--secondary-colour: #221F32;
+--red: #8F1315;
+--yellow: #FCA335;
+--beige: #E7D9CF;
 
 }
 
