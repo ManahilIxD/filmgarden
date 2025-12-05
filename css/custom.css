@@ -27,12 +27,11 @@ Experiment with colors, typography, spacing, and component styles.
    ========================================================================== */
 
 :root {
-  --primary-100: #3A4E6A;
-  --primary-80: #486284;
-  --primary-50: #9CB0C9;
-  --primary-25: #CED7E4;
-  --grey: #EBEFF4;
-  --white: #fff;
+--primary-colour: #464612;
+--secondary-colour: #221F32;
+--red: #8F1315;
+--yellow: #FCA335;
+--beige: #E7D9CF;
   
   /* You can add more custom colors here */
 --primary-colour: #464612;
