@@ -27,18 +27,13 @@ Experiment with colors, typography, spacing, and component styles.
    ========================================================================== */
 
 :root {
+
 --primary-colour: #464612;
 --secondary-colour: #221F32;
 --red: #8F1315;
 --yellow: #FCA335;
 --beige: #E7D9CF;
-  
-  /* You can add more custom colors here */
---primary-colour: #464612;
---secondary-colour: #221F32;
---red: #8F1315;
---yellow: #FCA335;
---beige: #E7D9CF;
+--green: #464612;
 
 }
 
@@ -52,6 +47,8 @@ Experiment with colors, typography, spacing, and component styles.
 body {
   color: var(--primarary-colour);
   background: var(--primary-colour);
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 400;
   /* font-family is set in framework.css but you can override it here if needed */
 }
 
@@ -59,6 +56,8 @@ body {
 h1, h2, h3, h4, h5, h6 { 
   line-height: 1.1;
   color: var(--beige);
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
   /* Add your custom heading styles here */
 }
 
@@ -330,6 +329,32 @@ footer nav, footer p {
 .dark-bg-wrapper a.button {
   border: 2px solid var(--white);
   color: var(--white);
+}
+
+.green-bg-wrapper {
+  background: var(--green);
+}
+
+.green-bg-wrapper h2,
+.green-bg-wrapper h3,
+.green-bg-wrapper h4,
+.green-bg-wrapper p {
+  color: var(--white);
+}
+
+.green-bg-wrapper .quote-section p {
+  color: var(--yellow);
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+}
+
+.green-bg-wrapper cite {
+  color: var(--beige) !important;
+}
+
+.green-bg-wrapper a.button {
+  border: 2px solid var(--white);
+  color: var(--white);
 } 
 
 
@@ -412,4 +437,16 @@ hr {
 iframe{
   aspect-ratio: 16/9;
   width: 100% !important;
+}
+
+
+#about-hero-image {
+  background: url('../img/kodak.jpg') no-repeat center center/cover;
+  height: 95vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing8x3);
 }
