@@ -277,6 +277,11 @@ header nav a.active {
   padding: var(--spacing8x8);
 }
 
+/* Card styling */
+section .card {
+  background: var(--beige);
+}
+
 .callout-image {
   background: url('../img/placeholder_bg.png') no-repeat center center/cover;
   width: 100%;
