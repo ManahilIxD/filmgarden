@@ -101,7 +101,7 @@ p {
   /* Try adjusting: line-height, letter-spacing, margin-bottom */
 }
 
-p2 {
+p.about {
   display: block;
   font-size: 18px;
   line-height: 1.5;
@@ -130,6 +130,10 @@ section div+div {
 @media only screen and (max-width: 799px) {
   h1 { 
     font-size: 75px;
+  }
+
+  #hero-image {
+    background-image: url('../img/kodak.jpg');
   }
   
   /* Add more mobile typography adjustments here */
