@@ -197,7 +197,7 @@ img {
   .mobi3 { grid-column-end: span 4; }
   .mobi4 { grid-column-end: span 3; }
   .mobi6 { grid-column-end: span 2; }
-  .mobi12 { grid-column-end: span 1; }
+  .mobi12 { grid-column-end: span ; }
 }
 
 /* Tablet breakpoint - 800px to 1279px */

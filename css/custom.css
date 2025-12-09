@@ -34,6 +34,7 @@ Experiment with colors, typography, spacing, and component styles.
 --yellow: #FCA335;
 --beige: #E7D9CF;
 --green: #464612;
+--blue: #221F32;
 
 }
 
@@ -271,8 +272,8 @@ section p + a.button {
 /* Footer Styles */
 footer {
   width: 100%;
-  background: var(--primary-100);
-  color: var(--white);
+  background: var(--green);
+  color: var(--beige);
   padding: 40px 20px 20px;
   /* Try customizing: background gradients, text alignment, etc. */
 }
