@@ -121,6 +121,13 @@ h9{
   text-align: center;
   color: var(--beige);
 }
+h10 {
+  font-family: 'crimson pro', serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  color: var(--yellow);
+}
 
 /* Paragraph Styles */
 p {
@@ -544,4 +551,3 @@ iframe{
   justify-content: center;
   padding: var(--spacing8x3);
 }
-
