@@ -125,7 +125,7 @@ section div+div {
 /* Basic Link Styles */
 a {
   text-decoration: none;
-  color: var(--primary-80);
+  color: var(--yellow);
   transition: all 300ms;
   /* Try adding: border-bottom, font-weight changes, etc. */
 }
@@ -138,7 +138,7 @@ a:hover {
 /* Button Styles - Customize your call-to-action buttons */
 a.button {
   border-radius: 50px;
-  border: 2px solid var(--primary-80);
+  border: 2px solid var(--yellow);
   padding: 10px 20px 8px;
   display: inline-block;
   margin-top: var(--spacing8x2);
@@ -170,7 +170,7 @@ a.button-highlight {
 
 /* Header styles */
 header img {
-  width: 160px;
+  width: 300px;
   /* Try adjusting: width, border-radius for logo styling */
 }
 
@@ -195,7 +195,7 @@ header nav a.active {
 /* Hero section */
 #hero-image {
   background: url('../img/heroimage.jpg') no-repeat center center/cover;
-  height: 95vh;
+  height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -206,7 +206,7 @@ header nav a.active {
 
 #hero-image h1 {
   text-align: center;
-  color: var(--white);
+  color: var(--beige);
   margin: 0; 
 
 }
@@ -423,7 +423,7 @@ hr {
 .quote-section blockquote p {
   font-size: 24px;
   font-style: italic;
-  color: var(--white);
+  color: var(--beige);
   margin-bottom: var(--spacing8x2);
   line-height: 1.4;
 }
@@ -443,7 +443,7 @@ iframe{
 
 #about-hero-image {
   background: url('../img/kodak.jpg') no-repeat center center/cover;
-  height: 95vh;
+  height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
