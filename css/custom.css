@@ -284,6 +284,11 @@ header nav a.active {
   min-height: 300px;
 }
 
+/* Dual Full Width Section */
+.dual-full-width {
+  background: var(--red);
+}
+
 /* Dual Full Width Image Responsive Fix */
 .dual-full-width .image img {
   width: 100%;
@@ -381,7 +386,16 @@ footer nav, footer p {
   border: 2px solid var(--white);
   color: var(--white);
 }
+.dark-bg-wrapper h2,
+.dark-bg-wrapper h3,
+.dark-bg-wrapper h4,
+.dark-bg-wrapper p {
+  color: var(--white);
+}
 
+.dark-bg-wrapper a.button {
+  border: 2px solid var(--white);
+  color: var(--white);
 .green-bg-wrapper {
   background: var(--green);
 }
