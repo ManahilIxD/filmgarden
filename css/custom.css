@@ -91,6 +91,7 @@ h5 {
 
 h6 { 
   font-size: 18px;
+
 }
 
 /* Paragraph Styles */
@@ -252,7 +253,7 @@ header nav a.active {
 
 /* Light background wrapper - extends to viewport edges */
 .light-bg-wrapper {
-  background: var(--grey);
+  background: var(--red);
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
@@ -283,6 +284,20 @@ header nav a.active {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+/* Home Section Styling */
+.home-title {
+  font-size: 100px;
+  color: var(--yellow);
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+}
+
+.home-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--beige);
 }
 
 
