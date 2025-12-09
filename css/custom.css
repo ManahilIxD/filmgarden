@@ -114,6 +114,13 @@ h8 {
   color: var(--yellow);
 
 }
+h9{
+  font-family: 'crimson pro', serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--beige);
+}
 
 /* Paragraph Styles */
 p {
