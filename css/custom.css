@@ -100,6 +100,15 @@ h6 {
 
 }
 
+h8 { 
+  font-family: 'crimson pro', serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+  color: var(--yellow);
+
+}
+
 /* Paragraph Styles */
 p {
   font-size: 18px;
@@ -119,6 +128,11 @@ p1{
   font-size: 18px;
   line-height: 1.5;
   color: var(--blue);
+}
+p.member-quotes {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--beige);
 }
 
 img + h4,
