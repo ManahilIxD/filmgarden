@@ -172,8 +172,6 @@ section div+div {
   h1 { 
     font-size: 75px;
   }
-  }
-  
   /* Add more mobile typography adjustments here */
 }
 
@@ -432,6 +430,8 @@ footer nav, footer p {
 .dark-bg-wrapper a.button {
   border: 2px solid var(--white);
   color: var(--white);
+}
+
 .green-bg-wrapper {
   background: var(--green);
 }
@@ -550,4 +550,9 @@ iframe{
   align-items: center;
   justify-content: center;
   padding: var(--spacing8x3);
+}
+p.events-end-note{
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--beige) !important;
 }
