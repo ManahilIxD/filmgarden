@@ -436,6 +436,13 @@ header nav a.active {
 /* Card styling */
 section .card {
   background: var(--beige);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Force card section to have proper wrapping */
+section .grid > .card {
+  break-inside: avoid;
 }
 
 .callout-image {
