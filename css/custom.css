@@ -695,3 +695,7 @@ p.about-vision {
   color: var(--yellow) !important;
   margin-top: var(--spacing8x2);
 }
+
+p.spotify {
+  color: var(--beige) !important;
+}
