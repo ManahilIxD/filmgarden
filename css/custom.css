@@ -340,6 +340,27 @@ header nav a.active {
   width: 100%;
 }
 
+/* Aims background wrapper - extends to viewport edges while keeping content within bounds */
+.aims-bg-wrapper {
+  background: var(--yellow);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: var(--spacing8x3) calc(50vw - 50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.aims-bg-wrapper .grid {
+  width: 100%;
+  grid-gap: 12px;
+}
+
+.aims-bg-wrapper .card {
+  box-sizing: border-box;
+  padding: var(--spacing8x2);
+}
+
 .callout {
   background: var(--grey);
 }
@@ -365,6 +386,10 @@ section .card {
   background: var(--red);
 }
 
+.dual-full-width-blue {
+  background: var(--blue);
+}
+
 /* Dual Full Width Image Responsive Fix */
 .dual-full-width .image img {
   width: 100%;
@@ -372,6 +397,7 @@ section .card {
   object-fit: cover;
   display: block;
 }
+
 
 /* Home Section Styling */
 .home-title {
