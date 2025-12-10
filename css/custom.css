@@ -699,3 +699,8 @@ p.about-vision {
 p.spotify {
   color: var(--beige) !important;
 }
+p.podcasts {
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--yellow) !important;
+}
