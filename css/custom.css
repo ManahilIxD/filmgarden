@@ -199,6 +199,15 @@ p.events1 {
   text-align: left;
   
 }
+
+p.event2 {
+  font-size: 25px;
+  line-height: 1.5;
+  color: var(--beige) !important;
+  text-align: left;
+  font-weight: 600;
+  margin-top: var(--spacing8x1);
+}
 img + h4,
 picture + p {
   margin-top: var(--spacing8x2);
