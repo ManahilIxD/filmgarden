@@ -425,6 +425,24 @@ header nav a.active {
   box-sizing: border-box;
 }
 
+/* Red background wrapper - extends to viewport edges */
+.red-bg-wrapper {
+  background: var(--red);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: var(--spacing8x3) calc(50vw - 50%);
+  box-sizing: border-box;
+}
+
+.red-bg-wrapper h1,
+.red-bg-wrapper h2,
+.red-bg-wrapper h3,
+.red-bg-wrapper h4,
+.red-bg-wrapper p {
+  color: var(--beige);
+}
+
 .callout {
   background: var(--grey);
 }
