@@ -128,6 +128,13 @@ h10 {
   text-align: left;
   color: var(--yellow);
 }
+h11{
+  font-family: 'crimson pro', serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  color: var(--red);
+}
 
 /* Paragraph Styles */
 p {
@@ -141,7 +148,7 @@ p.about {
   display: block;
   font-size: 18px;
   line-height: 1.5;
-  color: var(--blue);
+  color: var(--blue); !important;
 }
 
 p1{
