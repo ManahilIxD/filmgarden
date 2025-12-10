@@ -717,3 +717,9 @@ p.blogposts {
   line-height: 1.5;
   color: var(--beige) !important;
 }
+
+.mobi1.tab2.desk3 .button {
+  width: 100%;
+  text-align: center;
+}
+
