@@ -142,6 +142,13 @@ h12 {
   text-align: left;
   color: var(--green);
 }
+h13 {
+  font-family: 'crimson pro', serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--yellow);
+}
 
 /* Paragraph Styles */
 p {
@@ -184,6 +191,13 @@ p.pooh-quote {
   color: var(--yellow) !important;
   margin-bottom: var(--spacing8x2);
   line-height: 1.4;
+}
+p.events1 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--beige) !important;
+  text-align: left;
+  
 }
 img + h4,
 picture + p {
