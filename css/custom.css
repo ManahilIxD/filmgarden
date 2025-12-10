@@ -135,6 +135,13 @@ h11{
   text-align: left;
   color: var(--red);
 }
+h12 {
+  font-family: 'crimson pro', serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  color: var(--green);
+}
 
 /* Paragraph Styles */
 p {
