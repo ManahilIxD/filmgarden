@@ -321,6 +321,19 @@ header nav a.active {
   padding-bottom: 2px;
 }
 
+/* Mobile navigation overrides */
+.mobile-nav {
+  background-color: var(--green);
+}
+
+.hamburger-menu span {
+  background-color: var(--beige);
+}
+
+#mobile-nav-toggle:checked ~ .hamburger-menu span {
+  background-color: var(--beige);
+}
+
 
 /* Hero section */
 #hero-image {
