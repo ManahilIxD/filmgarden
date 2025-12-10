@@ -439,10 +439,25 @@ section .card {
 
 .dual-full-width-blue {
   background: var(--blue);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: var(--spacing8x3) calc(50vw - 50%);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: var(--spacing8x2);
 }
 
 /* Dual Full Width Image Responsive Fix */
 .dual-full-width .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.dual-full-width-blue .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
