@@ -689,3 +689,9 @@ p.about-body {
   line-height: 1.5;
   color: var(--beige) !important;
 }
+p.about-vision {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--yellow) !important;
+  margin-top: var(--spacing8x2);
+}
