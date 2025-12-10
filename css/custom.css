@@ -758,3 +758,8 @@ p.blogposts {
   text-align: center;
 }
 
+p.join {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--blue) !important;
+}
