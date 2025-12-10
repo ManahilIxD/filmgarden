@@ -592,3 +592,8 @@ p.home-quote{
   line-height: 1.4;
   container: var(--red);
 }
+p.about-body {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--beige) !important;
+}
