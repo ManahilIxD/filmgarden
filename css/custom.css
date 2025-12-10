@@ -383,6 +383,14 @@ header nav a.active {
   box-sizing: border-box;
   padding: var(--spacing8x2);
 }
+.dark-bg-wrapper {
+  background: var(--blue);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: var(--spacing8x3) calc(50vw - 50%);
+  box-sizing: border-box;
+}
 
 .callout {
   background: var(--grey);
