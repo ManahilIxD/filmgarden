@@ -763,3 +763,12 @@ p.join {
   line-height: 1.5;
   color: var(--blue) !important;
 }
+
+.why-join-section {
+  background: var(--blue);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: var(--spacing8x3) calc(50vw - 50%);
+  box-sizing: border-box;
+}
