@@ -149,6 +149,13 @@ h13 {
   text-align: left;
   color: var(--yellow);
 }
+h14 {
+  font-family: 'crimson pro', serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--yellow);
+}
 
 /* Paragraph Styles */
 p {
@@ -212,7 +219,12 @@ img + h4,
 picture + p {
   margin-top: var(--spacing8x2);
 }
-
+p.home-endnote {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--beige) !important;
+  margin-top: var(--spacing8x4);
+}
 
 
 section div+div {
