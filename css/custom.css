@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { 
   font-size: 90px;
+  color: var(--yellow);
   /* Try adding: font-weight, color, text-transform, etc. */
 }
 
@@ -152,6 +153,13 @@ h13 {
 h14 {
   font-family: 'crimson pro', serif;
   font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--yellow);
+}
+h.15 {
+  font-family: 'crimson pro', serif;
+  font-size: 70px;
   font-weight: 600;
   text-align: left;
   color: var(--yellow);
