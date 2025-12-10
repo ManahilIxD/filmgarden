@@ -315,7 +315,19 @@ header nav a.active {
   box-sizing: border-box;
 }
 
-/* Callout */
+/* Committee background wrapper - extends to viewport edges */
+.committee-bg-wrapper {
+  background: var(--blue);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: var(--spacing8x3) calc(50vw - 50%);
+  box-sizing: border-box;
+}
+
+.committee-bg-wrapper .grid {
+  width: 100%;
+}
 
 .callout {
   background: var(--grey);
