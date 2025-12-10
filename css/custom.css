@@ -704,3 +704,8 @@ p.podcasts {
   line-height: 1.5;
   color: var(--yellow) !important;
 }
+p.blogposts {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--beige) !important;
+}
